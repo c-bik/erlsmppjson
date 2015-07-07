@@ -1,0 +1,12 @@
+{application, erlsmppjson,
+ [
+  {description, "SMPP 5.0 PDU encoder/decoder"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erlsmppjson, []}},
+  {env, []}
+ ]}.
